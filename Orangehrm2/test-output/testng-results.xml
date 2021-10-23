@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-16T15:12:36 IST" name="automation-OrangeHrm" finished-at="2021-10-16T15:13:28 IST" duration-ms="52056">
+    <groups>
+    </groups>
+    <test started-at="2021-10-16T15:12:36 IST" name="OrengeHrm automation" finished-at="2021-10-16T15:13:28 IST" duration-ms="52056">
+      <class name="com.OrangeHrm.Test.LoginTest">
+        <test-method is-config="true" signature="initTESTDATE()[pri:0, instance:com.OrangeHrm.Test.LoginTest@431cd9b2]" started-at="2021-10-16T15:12:36 IST" name="initTESTDATE" finished-at="2021-10-16T15:12:36 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTESTDATE -->
+        <test-method is-config="true" signature="initClass()[pri:0, instance:com.OrangeHrm.Test.LoginTest@431cd9b2]" started-at="2021-10-16T15:12:36 IST" name="initClass" finished-at="2021-10-16T15:12:57 IST" duration-ms="20529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClass -->
+        <test-method signature="LoginToOrangeHRM()[pri:1, instance:com.OrangeHrm.Test.LoginTest@431cd9b2]" started-at="2021-10-16T15:12:57 IST" name="LoginToOrangeHRM" finished-at="2021-10-16T15:13:03 IST" duration-ms="6101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToOrangeHRM -->
+        <test-method signature="addNewUser()[pri:2, instance:com.OrangeHrm.Test.LoginTest@431cd9b2]" started-at="2021-10-16T15:13:03 IST" name="addNewUser" finished-at="2021-10-16T15:13:09 IST" duration-ms="5712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+        <test-method signature="addusername()[pri:3, instance:com.OrangeHrm.Test.LoginTest@431cd9b2]" started-at="2021-10-16T15:13:09 IST" name="addusername" finished-at="2021-10-16T15:13:13 IST" duration-ms="4642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addusername -->
+        <test-method signature="addrecruiment()[pri:4, instance:com.OrangeHrm.Test.LoginTest@431cd9b2]" started-at="2021-10-16T15:13:13 IST" name="addrecruiment" finished-at="2021-10-16T15:13:20 IST" duration-ms="7255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addrecruiment -->
+        <test-method signature="addbuzzdetails()[pri:5, instance:com.OrangeHrm.Test.LoginTest@431cd9b2]" started-at="2021-10-16T15:13:20 IST" name="addbuzzdetails" finished-at="2021-10-16T15:13:28 IST" duration-ms="7588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addbuzzdetails -->
+      </class> <!-- com.OrangeHrm.Test.LoginTest -->
+    </test> <!-- OrengeHrm automation -->
+  </suite> <!-- automation-OrangeHrm -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> 
+<suite name="automation-OrangeHrm" >
+<parameter name="browser" value="Chrome" />
+<parameter name="siteURL" value="https://opensource-demo.orangehrmlive.com/" />
+<parameter name="Username" value="Admin" />
+<parameter name="Password" value="admin123" />
+<test name="OrengeHrm automation">
+<classes>
+  <class name="com.OrangeHrm.Test.LoginTest"/>      
+</classes> 
+</test>  	 
+</suite> 
+
+   

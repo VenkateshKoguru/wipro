@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [automation-OrangeHrm]" guice-stage="DEVELOPMENT">
+  <parameter name="siteURL" value="https://opensource-demo.orangehrmlive.com/"/>
+  <parameter name="Username" value="Admin"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="Password" value="admin123"/>
+  <test thread-count="5" name="OrengeHrm automation(failed)">
+    <classes>
+      <class name="com.OrangeHrm.Test.LoginTest">
+        <methods>
+          <include name="initTESTDATE"/>
+          <include name="addbuzzdetails"/>
+          <include name="addrecruiment"/>
+          <include name="LoginToOrangeHRM"/>
+          <include name="initClass"/>
+          <include name="addNewUser"/>
+          <include name="addusername"/>
+        </methods>
+      </class> <!-- com.OrangeHrm.Test.LoginTest -->
+    </classes>
+  </test> <!-- OrengeHrm automation(failed) -->
+</suite> <!-- Failed suite [automation-OrangeHrm] -->
